@@ -7,7 +7,7 @@ dotenv.config();
 const PORT = process.env.PORT;
 
 app.get('/',(req,res)=>{
-    return res.json({message: 'Hello Bruhh!'});
+    return res.json({message: 'Hello Bruhh!!'});
 })
 
 app.listen(PORT,()=>{
